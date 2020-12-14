@@ -5,6 +5,9 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+body {
+    background-color: black;
+}
 
 .slider {
     position: absolute;
@@ -68,4 +71,11 @@ section {
     top: 0;
     opacity: 0.3;
     
+}
+.search-icon {
+    color: blanchedalmond;
+}
+
+.text1 {
+    color: blanchedalmond;
 }
