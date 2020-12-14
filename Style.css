@@ -3,6 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .slider {
@@ -11,9 +12,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #020024;
-  background: -webkit-gradient(linear, left bottom, left top, from(#020024), color-stop(88%, #090979), to(#00d4ff));
-  background: linear-gradient(0deg, #020024 0%, #090979 88%, #00d4ff 100%);
+  background: black;
   z-index: -1;
 }
 
@@ -75,9 +74,5 @@ section {
   left: 0;
   top: 0;
   opacity: 0.3;
-}
-
-* {
-  color: aqua;
 }
 /*# sourceMappingURL=Style.css.map */
