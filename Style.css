@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Libre Baskerville', serif;
+  color: white;
 }
 
 body {
@@ -78,13 +79,5 @@ section {
   left: 0;
   top: 0;
   opacity: 0.3;
-}
-
-.search-icon {
-  color: blanchedalmond;
-}
-
-.text1 {
-  color: blanchedalmond;
 }
 /*# sourceMappingURL=Style.css.map */
