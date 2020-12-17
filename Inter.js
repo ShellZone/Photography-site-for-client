@@ -5,6 +5,8 @@ const headline = document.querySelector(".headline");
 
 const tl = new TimelineMax();
 
+
+
 tl.fromTo(
     hero,
     1, 
