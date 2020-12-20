@@ -5,6 +5,7 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+// Nav base styling
 
 nav{
     border:1px solid #ccc;
@@ -50,6 +51,7 @@ img {
     width: auto;
 }
 
+// Nav befor and after styling
 
 nav ul li {
     font-family:'Raleway', sans-serif;
@@ -88,6 +90,8 @@ nav:hover ul {
     flex-direction: row;
 }
 
+// Burger menu styiling
+
 #menu-icon {
     width: 30px;
     height: 26px;
@@ -96,4 +100,28 @@ nav:hover ul {
     margin: 50px 0 0 50px;
     display: flex;
     padding: 0px 0pc 0px 10px;
+}
+
+.left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+    width: 26%;
+    float: left;
+    margin: 4%;
+}
+
+// Portfolio images styling
+
+.one-third-port {
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+}
+
+.one-third-port:hover {
+    opacity: 60%;
 }
