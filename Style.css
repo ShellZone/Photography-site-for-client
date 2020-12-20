@@ -55,6 +55,13 @@ img {
 nav ul li {
   font-family: 'Raleway', sans-serif;
   font-size: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 nav ul li a {
@@ -67,9 +74,12 @@ nav ul li a:hover {
 }
 
 nav ul, nav:active ul {
+  display: none;
   padding: 8px 0;
   width: 20%;
   z-index: 1000;
+  left: 45px;
+  top: 60px;
 }
 
 nav li {
@@ -81,6 +91,13 @@ nav li {
 nav:hover ul {
   display: block;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #menu-icon {
@@ -88,5 +105,10 @@ nav:hover ul {
   height: 26px;
   background: url(./img/icons8-xbox-menu-50.png) center;
   display: inline-block;
+  margin: 50px 0 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 0pc 0px 10px;
 }
 /*# sourceMappingURL=Style.css.map */
