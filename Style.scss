@@ -186,7 +186,53 @@ footer.second p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
 
+@media screen and (max-width: 768px) {
+    #menu-icon {
+        margin: 26px 0 0 26px;
+    }
+    mav ul, nav:active ul {
+        padding: 8px 0;
+        left: 23px;
+        top: 34px;
+        width: 50%;
+    }
+    .inner {
+        font-size: 120%;
+    }
+    .content h1 {
+        font-size: 180%;
+    }
+    p {
+        font-size: 120%;    
+    }
+    h2 {
+        font-size: 160%;
+    }
+    .left-col {width: 96%;
+        padding: 0 2%;
+        margin: 0 0 3% 0;
+}
+.sidebar {
+    width: 96%;
+    margin: 0 auto;
+}
+img {
+    padding: 2%;
+}
 
+
+.one-third-port {
+    width: 96%;
+    margin: 0 auto;
+    padding: 0;
+}
+.break {
+    display: block;
+}
+.social i {
+    font-size: 170%;
+}
 }
