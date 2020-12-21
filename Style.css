@@ -258,4 +258,37 @@ footer.second p {
   left: -359px;
   opacity: 25%;
 }
+
+.textgo {
+  text-decoration: none;
+  position: absolute;
+  right: 6px;
+  font-family: 'Pacifico', cursive;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=Style.css.map */
