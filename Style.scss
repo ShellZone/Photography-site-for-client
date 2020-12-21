@@ -236,3 +236,14 @@ img {
     font-size: 170%;
 }
 }
+
+.picrow{
+    display: flex;
+    width: 350px;
+    height: 190px;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    left: -359px;
+    opacity: 25%;
+}
